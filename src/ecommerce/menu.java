@@ -69,7 +69,7 @@ public class menu {
 						
 						break;
 					case 3:
-						System.out.println("Del vale e Su fresh");
+						System.out.println("Del valle e Su fresh");
 						
 						default:
 							System.out.println("opção inválida");
