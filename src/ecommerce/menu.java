@@ -9,7 +9,7 @@ public class menu {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		int opcao, bebida;
+		int opcao;
 		
 		while (true) {
 			
