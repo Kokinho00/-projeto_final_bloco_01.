@@ -2,10 +2,10 @@ package ecommerce.model;
 
 public class Adega extends Produto {
 	
-	int bebida;
+	String bebida;
 	
-	public Adega(String tipo, float valor, int quantidade, int bebida) {
-		super(tipo, valor, quantidade);
+	public Adega(int numero, String tipo, float valor, int quantidade, String bebida) {
+		super(numero, tipo, valor, quantidade);
 		this.bebida = bebida;
 	}
 	
@@ -13,17 +13,17 @@ public class Adega extends Produto {
 		
 	}
 	
-	public int getBebida() {
+	public String getBebida() {
 		return bebida;
 	}
 	
-	public void setBebida(int bebida) {
+	public void setBebida(String bebida) {
 		this.bebida = bebida;
 	}
 	
 	public void visualizarProduto() {
 		super.visualizarProduto();
-		System.out.println("tipo de bebida" + this.bebida);
+		System.out.println("tipo de bebida: " + this.bebida);
 	}
 }
 
